@@ -1,0 +1,15 @@
+#summary This was the general description of what was e-mailed to the recruiter.
+#labels Phase-Implementation,Phase-Deploy
+
+= Details =
+
+Hi,
+
+Attached is my code solution to the interesting puzzle. An actual PHP file. If it does not download, alert me. :-)
+
+A few exciting points to note: -
+ * If given more time, I would have written some form of error handling (sometimes the web service URLs go down) to prevent ugly error screen print. But that is just cosmetics. :-)
+ * I could have extracted the username from the e-mail address and made that the student's name. But since "students are identified by their e-mail", that was left out to code the array handling.
+ * Getting the stuff out is the easy part, forming all the associative and multidimensional arrays is the hard part. That took up like 80% of the coding time.
+ * I could have documented the code a little more clearer. But I think most of the code is pretty self explanatory.
+ * Awesome quiz! Great exercise for brain cells and logical thinking!

@@ -1,0 +1,29 @@
+#summary Question of the task.
+#labels Phase-Requirements,Phase-Design
+
+= Details =
+
+Programming Puzzle  #1
+ 
+Write a simple PHP script which retrieves a list of student projects from a given web page. Your PHP code should perform the following
+1. Obtain a session token from http://.../fbtest2/gettoken.php . Note that this page is displayed in HTML form.
+
+2. Use the given session token to load the list of student projects from http://.../fbtest2/list.php?token=XXX, where XXX is the token value. Students are identified by their email addresses.
+
+3. Parse this page and return as a result of this function, an array of student name & project title.
+
+ 
+Also write additional PHP code that calls this function, and prints the result grouped by users in roughly the following format :<br/>
+ 
+<b>Student 1</b><br/>
+Project 1<br/>
+Project 2<br/>
+…<br/>
+<b>Student 2</b><br/>
+Project 1<br/>
+Project 2<br/>
+…
+…
+
+ 
+You may use cURL and PHP5 for the task. The above 2 tasks may be completed within 1 single PHP file for simplicity.
